@@ -1,5 +1,5 @@
 * Postgresql, MsSql
-razor
+```razor
 {
   "ConnectionStrings": {
     "DefaultConnection": "--------"
@@ -13,9 +13,9 @@ razor
   "RabbitMQ": "rabbitmq://rabbitmq",
   "AllowedHosts": "*"
 }
-
+```
 * Redis
-razor
+```razor
 {
   "Logging": {
     "LogLevel": {
@@ -30,14 +30,16 @@ razor
   "RabbitMQ": "-------------",
   "AllowedHosts": "*"
 }
-
+```
 
 
 * MongoDb
-razor
+```razor
 {
   "MongoDBSettings": {
     "ConnectionString": "mongodb://localhost:27017",
     "DatabaseName": "SeninVeritabaniIsmin"
-  }
+  }
 }
+
+```
