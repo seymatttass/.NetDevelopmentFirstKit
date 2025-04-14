@@ -4,6 +4,73 @@
 
 ## İçindekiler
 
+```razor
+.NetDevelopmentFirstKit/
+├── api/
+│   ├── Controllers/
+│   │   └── ... (API Controller dosyaları)
+│   ├── DTOs/
+│   │   └── ... (Data Transfer Object dosyaları)
+│   ├── Entities/
+│   │   └── ... (Entity dosyaları)
+│   ├── appsettings.json
+│   └── Enums/
+│       └── ... (Enum dosyaları)
+├── docker/
+│   └── docker-compose.yml
+├── dbcontext/
+│   ├── mssql/
+│   │   └── ... (MSSQL DbContext yapılandırma dosyaları)
+│   ├── mongodb/
+│   │   └── ... (MongoDB DbContext yapılandırma dosyaları)
+│   ├── oracle/
+│   │   └── ... (Oracle DbContext yapılandırma dosyaları)
+│   ├── postgresql/
+│   │   └── ... (PostgreSQL DbContext yapılandırma dosyaları)
+│   └── redis/
+│       └── ... (Redis DbContext yapılandırma dosyaları)
+├── libraries/
+│   ├── messaging/
+│   │   └── ... (Mesajlaşma kütüphane dosyaları)
+│   ├── caching/
+│   │   └── redis/
+│   │       └── ... (Redis önbellekleme kütüphane dosyaları)
+│   ├── DependencyInjection/
+│   │   └── Autofac/
+│   │       └── ... (Autofac bağımlılık enjeksiyonu dosyaları)
+│   ├── Validation/
+│   │   └── FluentValidation/
+│   │       └── ... (FluentValidation doğrulama dosyaları)
+│   └── Mapping/
+│       └── AutoMapper/
+│           └── ... (AutoMapper eşleme dosyaları)
+├── patterns/
+│   ├── repository/
+│   │   ├── IRepository.cs
+│   │   └── Repository.cs
+│   ├── unitofworks/
+│   │   ├── IUnitOfWork.cs
+│   │   └── UnitOfWork.cs
+│   └── saga/
+│       ├── event/
+│       │   └── ... (Saga event dosyaları)
+│       ├── consumers/
+│       │   └── ... (Saga consumer dosyaları)
+│       ├── sagainstance/
+│       │   └── ... (Saga instance dosyaları)
+│       ├── sagamachine/
+│       │   └── ... (Saga machine dosyaları)
+│       ├── sagamap/
+│       │   └── ... (Saga map dosyaları)
+│       ├── sagadbcontext/
+│       │   └── ... (Saga DbContext yapılandırma dosyaları)
+│       ├── rabbitmqsettings/
+│       │   └── ... (RabbitMQ ayar dosyaları)
+│       └── Program.cs (Saga program başlangıç dosyası)
+└── README.md
+```
+
+
 Bu proje, .NET geliştiricilerinin yaygın olarak karşılaştığı sorunlara çözüm sunan ve geliştirme sürecini hızlandıran çeşitli yapıları içerir:
 
 * **Veritabanı Yapılandırmaları:**
