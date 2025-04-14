@@ -29,4 +29,4 @@ namespace Order.API.DTOS.OrderItemDTO.Validators
 //Faydaları 
 * Hata mesajlarını özelleştirmek oldukça kolaydır.
 * Tekrarlayan Kodları Azaltır
-*Tekrarlayan Kodları Azaltır
+* Tekrarlayan Kodları Azaltır
