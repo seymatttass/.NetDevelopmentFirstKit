@@ -108,7 +108,3 @@ Bu proje, .NET geliştiricilerinin yaygın olarak karşılaştığı sorunlara �
     * Docker ve Docker-compose yapılandırmalarını kendi proje yapınıza göre düzenleyiniz.
     * Docker compose ile ayağa kaldırınız.
 
-
-## İletişim
-
-Sorularınız veya geri bildirimleriniz için lütfen [e-posta adresiniz] ile iletişime geçin.
