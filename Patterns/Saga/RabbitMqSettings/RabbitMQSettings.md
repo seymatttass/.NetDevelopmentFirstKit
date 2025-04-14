@@ -1,8 +1,7 @@
 * RabbitMQ Kuyruk Ayarları
-* Bu sınıf, sistem içerisindeki farklı microservice'lerin 
-* dinleyeceği RabbitMQ kuyruk isimlerini merkezi olarak yönetmek
-* için kullanılır. Böylece kuyruk adları sabit ve tutarlı kalmış olur.
+* Bu sınıf, sistem içerisindeki farklı microservice'lerin dinleyeceği RabbitMQ kuyruk isimlerini merkezi olarak yönetmek için kullanılır. Böylece kuyruk adları sabit ve tutarlı kalmış olur.
 
+```razor
 namespace Shared.Settings
 {
     public static class RabbitMQSettings
@@ -17,4 +16,4 @@ namespace Shared.Settings
         
     }
 }
-    
+```  
