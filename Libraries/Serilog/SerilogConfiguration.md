@@ -70,3 +70,27 @@ networks:
 volumes:
   elasticsearch-data:
 ```
+
+
+* Program.cs yapılandırmaları tüm api'ler için : 
+```razor
+using Serilog;
+using Serilog.Events;
+
+var builder = WebApplication.CreateBuilder(args);
+
+
+// Serilog yapılandırması
+builder.Host.UseSerilog((hostingContext, loggerConfiguration) =>
+    loggerConfiguration
+        .MinimumLevel.Information()
+        .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+        .Enrich.FromLogContext()
+        .Enrich.WithProperty("ServiceName", "Basket.API")
+        .WriteTo.Console()
+        .WriteTo.File(
+            new Serilog.Formatting.Compact.CompactJsonFormatter(),
+            "logs/basket-api-.log",
+            rollingInterval: RollingInterval.Day)
+);
+```
