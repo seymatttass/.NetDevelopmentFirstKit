@@ -1,4 +1,4 @@
-// DbContext - MSSQL
+* DbContext - MSSQL
 
 ```razor
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -7,4 +7,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         configuration.GetConnectionString("DefaultConnection"),
 });
 
+```
+
+* MSSQL - appsettings.json yapılandırması
+```razor
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=SeninVeritabaniIsmin;User Id=KullaniciAdin;Password=Sifren;"
+  }
+}
 ```
