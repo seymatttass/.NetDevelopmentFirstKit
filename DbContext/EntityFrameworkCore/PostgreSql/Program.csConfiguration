@@ -1,6 +1,9 @@
 * DbContext - PostgreSql
 * pgsql.EntityFrameworkCore.PostgreSQL paketini yükleyelim.
-```razor dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL ```
+
+```razor
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+```
 
 * Usingleri ekleyelim.
 
