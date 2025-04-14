@@ -1,0 +1,9 @@
+// DbContext - PostgreSql
+
+```razor
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseNpgsql(
+        configuration.GetConnectionString("DefaultConnection"),
+});
+```
