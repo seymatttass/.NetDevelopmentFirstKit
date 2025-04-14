@@ -1,3 +1,8 @@
+* MSSQL  - Gerekli mssql paketini indirelim. 
+```razor
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+
 * DbContext - MSSQL
 
 ```razor
