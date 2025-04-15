@@ -1,3 +1,5 @@
+* Docker da network oluşturmak ve apilerimizi bu networke eklemek için cmd ekranında aşağıdaki işlemleri gerçekleştirmeliyiz.
+
 ```razor
 
 
